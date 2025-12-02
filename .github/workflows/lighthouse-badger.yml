@@ -46,15 +46,19 @@ jobs:
           echo "BRANCH=$BRANCH" >> $GITHUB_ENV
         env:
           REPO_BRANCH: ${{ env.REPO_BRANCH }}
+          
+      # FIX: Changed token from LIGHTHOUSE_BADGER_TOKEN to GITHUB_TOKEN
       - uses: actions/checkout@v4
         with:
           repository: ${{ env.REPOSITORY }}
-          token: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }} # <--- FIXED: Now using the default, auto-generated token
           ref: ${{ env.BRANCH }}
+          
       - uses: actions/checkout@v4
         with:
           repository: "myactionway/lighthouse-badges"
           path: temp_lighthouse_badges_nested
+          
       - uses: myactionway/lighthouse-badger-action@v2.2
         with:
           urls: ${{ env.URLS }}
