@@ -22,9 +22,9 @@ announcements:
   limit:
 
 latest_posts:
-  enabled: false
-  scrollable: false
-  limit:
+  enabled: true          # ✅ turn this ON
+  scrollable: false      # blog list without scroll box
+  limit: 3               # number of posts to show
 ---
 
 **Yuhao Su** is a Ph.D. Candidate in Computer Science at [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu) at Northeastern University. His research spans **multimodal LLMs**, **video understanding**, and **data-efficient & interactive AI**. His doctoral work focuses on temporal action segmentation, object correspondence, active learning, feedback learning under the supervision of **[Prof. Ehsan Elhamifar.](https://www.khoury.northeastern.edu/home/eelhami/)**
