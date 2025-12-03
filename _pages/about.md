@@ -9,7 +9,8 @@ profile:
   image:
   image_circular: false
   more_info: >
-    <p>NOVA Lab, Northeastern University</p>
+    <p>Khoury College of Computer Sciences</p>
+    </p>Northeastern University</p>
     <p>Boston, MA</p>
 
 selected_papers: false
