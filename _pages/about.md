@@ -22,7 +22,7 @@ announcements:
   limit:
 
 latest_posts:
-  enabled: true          # ✅ turn this ON
+  enabled: false          # ✅ turn this ON
   scrollable: false      # blog list without scroll box
   limit: 3               # number of posts to show
 ---
@@ -32,3 +32,17 @@ latest_posts:
 During his Ph.D., he enriched his expertise in multimodal LLMs and video understanding through a research internship at UII America, where he developed MedVidBench, a large-scale multi-task medical video understanding dataset, and MedGRPO, a multi-task reinforcement learning framework.
 
 Before Northeastern, he earned his B.A. in Mathematics and Computer Science from [the University of Minnesota](https://www.umn.edu).
+
+---
+
+## <span id="projects"></span> Projects
+
+{% include projects.liquid %}
+
+---
+
+## <span id="publications"></span> Publications
+
+{% include selected_papers.liquid %}
+
+---
