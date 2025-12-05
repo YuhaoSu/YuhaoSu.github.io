@@ -56,6 +56,16 @@
             </a>
           </li>
 
+          <!-- Selected Works (scroll to section on homepage) -->
+          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+            <a class="nav-link" href="/#selected-works">
+              Selected Works
+              {% if page.permalink == '/' %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}

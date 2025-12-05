@@ -1496,3 +1496,116 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+// Selected Works Section
+.selected-works {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  .work-entry {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .work-preview {
+      position: relative;
+      margin-bottom: 1rem;
+
+      img {
+        width: 100%;
+        height: auto;
+        border: 1px solid var(--global-divider-color);
+      }
+
+      .venue-badge {
+        position: absolute;
+        top: 0.5rem;
+        left: 0.5rem;
+        background-color: var(--global-theme-color);
+        color: white;
+        padding: 0.25rem 0.75rem;
+        font-size: 0.85rem;
+        font-weight: 600;
+        border-radius: 0.25rem;
+        text-transform: uppercase;
+      }
+    }
+
+    .work-title {
+      font-size: 1rem;
+      font-weight: normal;
+      margin-bottom: 0.75rem;
+      line-height: 1.4;
+
+      a {
+        color: var(--global-text-color);
+        text-decoration: none;
+
+        &:hover {
+          color: var(--global-theme-color);
+          text-decoration: none;
+        }
+      }
+    }
+
+    .work-authors {
+      font-size: 1rem;
+      color: var(--global-text-color);
+      margin-bottom: 0.75rem;
+      font-style: normal;
+    }
+
+    .work-description {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--global-text-color);
+      margin-bottom: 0.75rem;
+    }
+
+    .work-venue {
+      font-size: 0.95rem;
+      color: var(--global-text-color);
+      margin-bottom: 1rem;
+      font-style: normal;
+    }
+
+    .work-links {
+      font-size: 0.95rem;
+      margin-top: 0.5rem;
+
+      a {
+        color: var(--global-theme-color);
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .selected-works {
+    .work-entry {
+      .work-preview {
+        margin-bottom: 1.5rem;
+      }
+
+      .work-title {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

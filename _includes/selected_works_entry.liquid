@@ -1,0 +1,69 @@
+<div class="work-entry">
+  <div class="row">
+    {% if project.img %}
+      <div class="col-md-3">
+        <div class="work-preview">
+          {% if project.abbr %}
+            <div class="venue-badge">{{ project.abbr }}</div>
+          {% endif %}
+          <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" class="img-fluid rounded">
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="{% if project.img %}col-md-9{% else %}col-md-12{% endif %}">
+      <!-- Title -->
+      <h4 class="work-title">
+        {% if project.redirect %}
+          <a href="{{ project.redirect }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+          <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+        {% endif %}
+      </h4>
+
+      <!-- Authors -->
+      {% if project.authors %}
+        <div class="work-authors">{{ project.authors | replace: "Yuhao Su", "<strong>Yuhao Su</strong>" }}</div>
+      {% endif %}
+
+      <!-- Description -->
+      {% if project.description %}
+        <div class="work-description">{{ project.description }}</div>
+      {% endif %}
+
+      <!-- Venue -->
+      {% if project.venue %}
+        <div class="work-venue">
+          {{ project.venue }}{% if project.year %} {{ project.year }}{% endif %}
+        </div>
+      {% endif %}
+
+      <!-- Links -->
+      <div class="work-links">
+        {% if project.pdf %}
+          {% if project.pdf == "#" %}
+            [Paper]
+          {% else %}
+            [<a href="{{ project.pdf }}" target="_blank">Paper</a>]
+          {% endif %}
+        {% endif %}
+        {% if project.github %}
+          {% if project.github == "#" %}
+            [Code]
+          {% else %}
+            [<a href="{{ project.github }}" target="_blank">Code</a>]
+          {% endif %}
+        {% endif %}
+        {% if project.website %}
+          [<a href="{{ project.website }}" target="_blank">Project</a>]
+        {% endif %}
+        {% if project.slides %}
+          [<a href="{{ project.slides }}" target="_blank">Slides</a>]
+        {% endif %}
+        {% if project.video %}
+          [<a href="{{ project.video }}" target="_blank">Video</a>]
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
