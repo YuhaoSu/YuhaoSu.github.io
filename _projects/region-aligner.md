@@ -2,7 +2,7 @@
 layout: page
 title: "RegionAligner: Bridging Ego-Exo Views for Object Correspondence via Unified Text-Visual Learning"
 authors: Yuhao Su, Ehsan Elhamifar
-description: Developed a unified text-visual learning framework for ego-exo object correspondence. Leverages large VLMs to filter visual distractors and introduces region-guided supervision. Includes unsupervised extension. Improves IoU by 10.16% (ego-to-exo) and 6.04% (exo-to-ego) on Ego-Exo4D.
+description: "<b>Task:</b> RegionAligner is proposed as a unified text-visual framework that uses VLMs to filter distractors and applies region-guided supervision to solve the challenging problem of cross-view object correspondence between egocentric and exocentric videos.<br><b>Results:</b> RegionAligner significantly outperforms baselines on Ego-Exo4D, achieving IoU improvements of 10.16% (ego-to-exo) and 6.04% (exo-to-ego), while also demonstrating adaptation to unsupervised settings."
 venue: WACV
 year: 2026
 img:
@@ -10,7 +10,7 @@ abbr: WACV
 importance: 2
 category: work
 pdf: "#"
-github: "#"
+github: https://github.com/YuhaoSu/RegionAligner
 website:
 ---
 

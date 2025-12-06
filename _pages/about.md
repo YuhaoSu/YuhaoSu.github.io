@@ -31,7 +31,7 @@ latest_posts:
 
 **Yuhao Su** is a Ph.D. Candidate in Computer Science at [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu) at Northeastern University. He completed his first year of coursework remotely during the pandemic (2020-2021) before beginning research in Boston in 2021. His research spans **multimodal LLMs**, **video understanding**, and **data-efficient & interactive AI**. His doctoral work focuses on temporal action segmentation, object correspondence, active learning, feedback learning under the supervision of [Prof. Ehsan Elhamifar.](https://www.khoury.northeastern.edu/home/eelhami/)
 
-During his Ph.D., he enriched his expertise in multimodal LLMs and video understanding through a research internship at [UII America](https://www.uii-ai.com), where he developed MedVidBench, a large-scale multi-task medical video understanding dataset, and MedGRPO, a multi-task reinforcement learning framework.
+During his Ph.D., he enriched his expertise in multimodal LLMs and video understanding through a research internship at [UII America](https://usa.united-imaging.com), where he developed MedVidBench, a large-scale multi-task medical video understanding dataset, and MedGRPO, a multi-task reinforcement learning framework.
 
 Before Northeastern, he earned his B.A. in Mathematics and Computer Science from [the University of Minnesota](https://www.umn.edu).
 

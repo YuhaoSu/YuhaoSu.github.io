@@ -2,7 +2,7 @@
 layout: page
 title: Two-Stage Active Learning for Efficient Temporal Action Segmentation
 authors: Yuhao Su, Ehsan Elhamifar
-description: We developed a two-stage active learning framework for temporal action segmentation (TAS) that achieves 95% of full-supervision performance with only 0.35% of labeled frames, significantly reducing annotation costs.
+description: "<b>Task:</b> To efficiently overcome the costly frame-level annotation for Temporal Action Segmentation (TAS), a two-stage active learning framework is introduced that leverages contrastive prototype learning for intelligent video and frame selection.<br><b>Results:</b> The framework achieves 95% of full-supervision performance using only 0.35% of labeled frames, significantly reducing annotation effort and marking the first active learning work for TAS."
 venue: ECCV
 year: 2024
 img:
@@ -10,7 +10,7 @@ abbr: ECCV
 importance: 3
 category: work
 pdf: https://www.khoury.northeastern.edu/home/eelhami/publications/ATAS-ECCV24.pdf
-github: "#"
+github: https://github.com/YuhaoSu/ActiveActionSeg
 website:
 ---
 
