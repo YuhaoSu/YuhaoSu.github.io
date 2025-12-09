@@ -9,7 +9,7 @@ img:
 abbr:
 importance: 1
 category: work
-pdf: "#"
+pdf: https://arxiv.org/abs/2512.06581
 github: https://github.com/YuhaoSu/MedGRPO
 website: https://yuhaosu.github.io/MedGRPO/
 ---
