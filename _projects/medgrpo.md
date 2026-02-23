@@ -3,10 +3,10 @@ layout: page
 title: "MedGRPO: Multi-Task Reinforcement Learning for Heterogeneous Medical Video Understanding"
 authors: Yuhao Su, Anwesa Choudhuri, Zhongpai Gao, Benjamin Planche, Van Nguyen Nguyen, Meng Zheng, Yuhan Shen, Arun Innanje, Terrence Chen, Ehsan Elhamifar, Ziyan Wu
 description: "<b>Task:</b> The work introduces the MedVidBench benchmark (531K video-instruction pairs) and the MedGRPO RL framework, which utilizes cross-dataset reward normalization and a medical LLM judge to stabilize training and advance medical video understanding.<br><b>Results:</b> Supervised fine-tuning on MedVidBench outperforms GPT-4.1 and Gemini-2.5-Flash across all tasks, with MedGRPO further improving performance over the SFT baseline on multiple tasks."
-venue:
-year:
+venue: CVPR
+year: 2026
 img:
-abbr:
+abbr: CVPR
 importance: 1
 category: work
 pdf: https://arxiv.org/abs/2512.06581
