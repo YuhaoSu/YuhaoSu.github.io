@@ -11,7 +11,7 @@ importance: 1
 category: work
 pdf: https://arxiv.org/abs/2512.06581
 github: https://github.com/YuhaoSu/MedGRPO
-website: https://yuhaosu.github.io/MedGRPO/
+website: https://gaozhongpai.github.io/MedGRPO-Page/
 ---
 
 MedGRPO introduces a comprehensive framework for medical video understanding, combining a large-scale dataset with a novel multi-task reinforcement learning approach.
