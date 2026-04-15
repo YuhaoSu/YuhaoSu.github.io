@@ -1,6 +1,33 @@
 ---
 ---
 
+@inproceedings{su2026medgrpo,
+  abbr={CVPR},
+  title={MedGRPO: Multi-Task Reinforcement Learning for Heterogeneous Medical Video Understanding},
+  author={Su, Yuhao and Choudhuri, Anwesa and Gao, Zhongpai and Planche, Benjamin and Nguyen, Van Nguyen and Zheng, Meng and Shen, Yuhan and Innanje, Arun and Chen, Terrence and Elhamifar, Ehsan and Wu, Ziyan},
+  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2026},
+  pdf={https://arxiv.org/abs/2512.06581},
+  preview={medgrpo_cvpr26.png},
+  abstract={We introduce MedVidBench, a large-scale multi-task medical video understanding dataset with 531K video-instruction pairs across 8 tasks covering video, segment, and frame-level understanding. Built on top of it, MedGRPO is a multi-task reinforcement learning framework with cross-dataset reward normalization for balanced training and a medical LLM judge for caption evaluation. MedGRPO improves over the SFT baseline across tasks, with +0.074 mIoU@0.3 on temporal action grounding and +0.588 LLM score on video summary.},
+  selected={true},
+  bibtex_show={true}
+}
+
+@inproceedings{su2026regionaligner,
+  abbr={WACV},
+  title={RegionAligner: Bridging Ego-Exo Views for Object Correspondence via Unified Text-Visual Learning},
+  author={Su, Yuhao and Elhamifar, Ehsan},
+  booktitle={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  year={2026},
+  pdf={https://openaccess.thecvf.com/content/WACV2026/papers/Su_RegionAligner_Bridging_Ego-Exo_Views_for_Object_Correspondence_via_Unified_Text-Visual_WACV_2026_paper.pdf},
+  code={https://github.com/YuhaoSu/RegionAligner},
+  preview={region_aligner_wacv26.png},
+  abstract={We propose RegionAligner, a unified text-visual framework for establishing object correspondence between egocentric and exocentric views. RegionAligner leverages vision-language models to filter visual distractors in multi-view scenarios and introduces region-guided supervision to improve correspondence learning. On the Ego-Exo4D benchmark, RegionAligner achieves IoU improvements of 10.16% for ego-to-exo and 6.04% for exo-to-ego correspondence, and extends to an unsupervised setting.},
+  selected={true},
+  bibtex_show={true}
+}
+
 @inproceedings{su2024atas,
   abbr={ECCV},
   title={Two-Stage Active Learning for Efficient Temporal Action Segmentation},
@@ -8,6 +35,7 @@
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2024},
   pdf={https://www.khoury.northeastern.edu/home/eelhami/publications/ATAS-ECCV24.pdf},
+  preview={al_for_tas_eccv24.png},
   abstract={We develop a two-stage active learning framework for temporal action segmentation (TAS) with minimal annotations. The framework includes inter-video selection for diverse video sampling, intra-video selection for identifying the most representative frames, prototype-based TAS learning, and a semi-supervised extension. Our method achieves 95% of full-supervision performance with only 0.35% labeled frames, establishing a benchmark for active learning in TAS.},
   selected={true},
   bibtex_show={true}

@@ -6,14 +6,9 @@ subtitle: Ph.D. Candidate in Computer Science
 
 profile:
   align: right
-  image:
+  image: yuhao_head.jpg
   image_circular: false
-  more_info: >
-    <p>NOVA Lab</p>
-    <p>Khoury College of Computer Sciences</p>
-    <p>Northeastern University</p>
-    <p>Boston, MA</p>
-    <p>su.yuh@northeastern.edu</p>
+  more_info:
 
 selected_papers: false
 social: true
@@ -29,7 +24,7 @@ latest_posts:
   limit: 3               # number of posts to show
 ---
 
-**Yuhao Su** is a Ph.D. Candidate in Computer Science at [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu) at Northeastern University. He completed his first year of coursework remotely during the pandemic (2020-2021) before beginning research in Boston in 2021. His research spans **multimodal LLMs**, **video understanding**, and **data-efficient & interactive AI**. His doctoral work focuses on temporal action segmentation, object correspondence, active learning, feedback learning under the supervision of [Prof. Ehsan Elhamifar.](https://www.khoury.northeastern.edu/home/eelhami/)
+**Yuhao Su** is a Ph.D. Candidate in Computer Science at [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu) at Northeastern University. His research spans **multimodal learning**, **video understanding**, as well as **learning & optimization**. His research builds practical AI task assistants that understand long-form video at lower annotation and compute cost, advised by [Prof. Ehsan Elhamifar](https://www.khoury.northeastern.edu/home/eelhami/).
 
 During his Ph.D., he enriched his expertise in multimodal LLMs and video understanding through a research internship at [UII America](https://usa.united-imaging.com), where he developed MedVidBench, a large-scale multi-task medical video understanding dataset, and MedGRPO, a multi-task reinforcement learning framework.
 
@@ -48,6 +43,6 @@ Before Northeastern, he earned his B.A. in Mathematics and Computer Science from
 
 ### Under Review
 
-Research on interactive and training-free temporal action segmentation, with focus on multimodal reasoning and feedback-driven learning.
+Ongoing research on interactive video understanding and multimodal generation.
 
 ---

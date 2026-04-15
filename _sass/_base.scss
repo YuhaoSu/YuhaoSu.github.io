@@ -1520,10 +1520,12 @@ mjx-container[jax="CHTML"][display="true"] {
     .work-preview {
       position: relative;
       margin-bottom: 1rem;
+      max-width: 260px;
 
       img {
         width: 100%;
-        height: auto;
+        aspect-ratio: 2 / 1;
+        object-fit: fill;
         border: 1px solid var(--global-divider-color);
       }
 

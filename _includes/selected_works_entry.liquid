@@ -3,9 +3,6 @@
     {% if project.img %}
       <div class="col-md-3">
         <div class="work-preview">
-          {% if project.abbr %}
-            <div class="venue-badge">{{ project.abbr }}</div>
-          {% endif %}
           <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" class="img-fluid rounded">
         </div>
       </div>
