@@ -10,7 +10,7 @@ abbr: CVPR
 importance: 1
 category: work
 pdf: https://arxiv.org/abs/2512.06581
-github: https://github.com/YuhaoSu/MedGRPO
+github: https://github.com/UII-AI/MedGRPO-Code
 website: https://yuhaosu.github.io/MedGRPO/
 ---
 
