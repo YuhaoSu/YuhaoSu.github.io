@@ -24,7 +24,7 @@ latest_posts:
   limit: 3               # number of posts to show
 ---
 
-**Yuhao Su** is a Ph.D. Candidate in Computer Science at [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu) at Northeastern University, advised by [Prof. Ehsan Elhamifar](https://www.khoury.northeastern.edu/home/eelhami/). His research spans **multimodal learning**, **video understanding**, and **learning & optimization**, with a focus on building efficient video LLMs at lower annotation and compute cost.
+**Yuhao Su** is a Ph.D. Candidate in Computer Science at [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/) at Northeastern University, advised by [Prof. Ehsan Elhamifar](https://www.khoury.northeastern.edu/home/eelhami/). His research focuses on multimodal LLMs, video understanding, and generative models, with emphasis on efficiency and real-world applications.
 
 He is currently a Research Intern at [Samsung Research America](https://sra.samsung.com/), working on efficient video LLMs. Previously, he interned at [UII America](https://www.uii-ai.com/), where he developed MedVidBench, a large-scale medical video understanding dataset, and MedGRPO, a multi-task RL framework for video LLM training.
 
