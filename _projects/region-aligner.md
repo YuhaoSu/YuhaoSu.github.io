@@ -2,7 +2,7 @@
 layout: page
 title: "RegionAligner: Bridging Ego-Exo Views for Object Correspondence via Unified Text-Visual Learning"
 authors: Yuhao Su, Ehsan Elhamifar
-description:
+description: "Matches the same object between first-person and third-person views: a VLM names the task-relevant objects to narrow the search region, and multi-level supervision aligns regions across views. Works in both supervised and unsupervised settings on Ego-Exo4D."
 venue: WACV
 year: 2026
 img: /assets/img/publication_preview/region_aligner_wacv26.jpg

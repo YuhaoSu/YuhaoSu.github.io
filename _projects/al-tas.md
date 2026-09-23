@@ -2,7 +2,7 @@
 layout: page
 title: Two-Stage Active Learning for Efficient Temporal Action Segmentation
 authors: Yuhao Su, Ehsan Elhamifar
-description:
+description: "Cuts annotation cost for temporal action segmentation by first choosing the most diverse videos, then the frames that best summarize each one. Reaches 95% of fully supervised performance with only 0.35% of frames labeled."
 venue: ECCV
 year: 2024
 img: /assets/img/publication_preview/al_for_tas_eccv24.jpg

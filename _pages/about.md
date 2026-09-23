@@ -14,9 +14,9 @@ selected_papers: false
 social: true
 
 announcements:
-  enabled: false
-  scrollable: false
-  limit:
+  enabled: false   # rendered manually below (between bio and Selected Works)
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false          # ✅ turn this ON
@@ -24,11 +24,17 @@ latest_posts:
   limit: 3               # number of posts to show
 ---
 
-**Yuhao Su** is a Ph.D. Candidate in Computer Science at [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/) at Northeastern University, advised by [Prof. Ehsan Elhamifar](https://www.khoury.northeastern.edu/home/eelhami/). His research focuses on multimodal LLMs, video understanding, and generative models, with emphasis on efficiency and real-world applications.
+**Yuhao Su** is a PhD candidate in Computer Science at [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/) at Northeastern University, advised by [Prof. Ehsan Elhamifar](https://www.khoury.northeastern.edu/home/eelhami/). His research focuses on multimodal LLMs, video understanding, and agentic and interactive AI.
 
-He is currently a Research Intern at [Samsung Research America](https://sra.samsung.com/), working on efficient video LLMs. Previously, he interned at [UII America](https://www.uii-ai.com/), where he developed MedVidBench, a large-scale medical video understanding dataset, and MedGRPO, a multi-task RL framework for video LLM training.
+He was a Research Intern at [Samsung Research America](https://sra.samsung.com/) (2026) and [United Imaging Intelligence](https://www.uii-ai.com/) (2025). Before Northeastern, he earned his B.A. in Mathematics and Computer Science from [the University of Minnesota](https://www.umn.edu).
 
-Before Northeastern, he earned his B.A. in Mathematics and Computer Science from [the University of Minnesota](https://www.umn.edu).
+He is seeking full-time Applied/Research Scientist, MLE, and SWE roles starting 2027.
+
+---
+
+## <span id="news"></span> News
+
+{% include news.liquid limit=true %}
 
 ---
 
@@ -43,6 +49,10 @@ Before Northeastern, he earned his B.A. in Mathematics and Computer Science from
 
 ### Under Review
 
-Ongoing research on interactive video understanding and multimodal generation.
+Ongoing research on agentic video LLMs, interactive video understanding, and multimodal generation.
 
 ---
+
+## Academic Service
+
+Reviewer: CVPR, ICCV, ECCV, NeurIPS, ICLR, TPAMI, WACV, ICASSP
